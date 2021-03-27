@@ -5,7 +5,9 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/elliothershberg/JBrowseR/workflows/R-CMD-check/badge.svg)](https://github.com/elliothershberg/JBrowseR/actions)
+[![R-CMD-check](https://github.com/GMOD/JBrowseR/workflows/R-CMD-check/badge.svg)](https://github.com/gmod/JBrowseR/actions)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/JBrowseR)](https://CRAN.R-project.org/package=JBrowseR)
 <!-- badges: end -->
 
 JBrowseR is an R package that provides a simple and clean interface to
@@ -23,7 +25,7 @@ with your data in just a few lines of R code!
 
 ## Installation
 
-You can **soon** install the released version of JBrowseR from
+You can install the released version of JBrowseR from
 [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
@@ -34,7 +36,7 @@ And the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("elliothershberg/JBrowseR")
+devtools::install_github("gmod/JBrowseR")
 ```
 
 ## Example
@@ -55,10 +57,10 @@ JBrowseR("ViewHg19",
 In order to get started with JBrowseR, please refer to the vignette that
 best suits your needs:
 
--   [Introduction](https://elliothershberg.github.io/JBrowseR/articles/JBrowseR.html)
+-   [Introduction](https://gmod.github.io/JBrowseR/articles/JBrowseR.html)
 -   [Custom browser
-    tutorial](https://elliothershberg.github.io/JBrowseR/articles/custom-browser-tutorial.html)
+    tutorial](https://gmod.github.io/JBrowseR/articles/custom-browser-tutorial.html)
 -   [JSON configuration
-    tutorial](https://elliothershberg.github.io/JBrowseR/articles/json-tutorial.html)
+    tutorial](https://gmod.github.io/JBrowseR/articles/json-tutorial.html)
 -   [Creating
-    URLS](https://elliothershberg.github.io/JBrowseR/articles/creating-urls.html)
+    URLS](https://gmod.github.io/JBrowseR/articles/creating-urls.html)

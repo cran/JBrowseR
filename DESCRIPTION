@@ -1,6 +1,6 @@
 Package: JBrowseR
 Title: An R Interface to the JBrowse 2 Genome Browser
-Version: 0.7.0
+Version: 0.7.1
 Authors@R: 
     c(person(given = "Elliot",
              family = "Hershberg",
@@ -15,10 +15,8 @@ Description: Provides an R interface to the JBrowse 2 genome browser.
     The browser can be loaded with a variety of common genomics data types,
     and can be used with a custom theme.
 License: Apache License (>= 2)
-URL: https://elliothershberg.github.io/JBrowseR/
-        https://github.com/elliothershberg/JBrowseR
+URL: https://gmod.github.io/JBrowseR/ https://github.com/GMOD/JBrowseR
 Encoding: UTF-8
-LazyData: true
 RoxygenNote: 7.1.1
 Imports: htmltools, htmlwidgets, reactR, stringr, magrittr, readr,
         jsonlite, httpuv, mime, cli
@@ -26,9 +24,9 @@ Suggests: testthat (>= 3.0.0), knitr, rmarkdown
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2021-02-19 16:09:29 UTC; elliothershberg
+Packaged: 2021-03-25 16:10:53 UTC; elliothershberg
 Author: Elliot Hershberg [aut, cre] (<https://orcid.org/0000-0003-2068-3366>),
   the JBrowse 2 Team [aut]
 Maintainer: Elliot Hershberg <eahershberg@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-02-22 12:10:06 UTC
+Date/Publication: 2021-03-27 06:30:02 UTC

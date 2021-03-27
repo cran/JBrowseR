@@ -143,7 +143,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="preparing-an-assembly" class="section level2">
 <h2>Preparing an assembly</h2>
 <p>The steps for preparing an assembly for use in the browser can be found in the <a href="https://jbrowse.org/jb2/docs/quickstart_cli/">JBrowse 2 docs</a>, but we will cover them again here. In order to be used, an assembly must first be indexed. We will be using the Sars-CoV-2 genome for this tutorial.</p>
-<p>To create an index, we first need to download the FASTA for the assembly. This can be found <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512">here</a>. We also need <a href="http://www.htslib.org/">htslib</a>, which provides the tools we need for indexing and compression. (I prefer to install these tools using <a href="https://anaconda.org/bioconda/htslib">the bioconda package</a>). The remaining steps assume the htslib is installed, and we have a fasta file named <code>sars-cov2.fa</code>.</p>
+<p>To create an index, we first need to download the FASTA for the assembly. This can be found <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512">here</a>. We also need <a href="http://www.htslib.org/">htslib</a>, which provides the tools we need for indexing and compression. (I prefer to install htslib using <a href="https://bioconda.github.io/">bioconda</a>). The remaining steps assume the htslib is installed, and we have a fasta file named <code>sars-cov2.fa</code>.</p>
 <p>With these steps taken, we are going to compress and index the assembly, for best performance. The necessary commands are:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. compresses sars-cov2.fa to sars-cov2.fa.gz</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. generates sars-cov2.fa.gz.fai and sars-cov2.fa.gz.gzi</span></span>
@@ -155,7 +155,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><code>https://jbrowse.org/genomes/sars-cov2/fasta/sars-cov2.fa.gz.fai</code></li>
 <li><code>https://jbrowse.org/genomes/sars-cov2/fasta/sars-cov2.fa.gz.gzi</code></li>
 </ul>
-<p>However, these are the same steps for preparing any assembly for use with the browser. For notes on creating URLs for your data either locally or hosted, read more <a href="https://elliothershberg.github.io/JBrowseR/articles/creating-urls.html">here</a>.</p>
+<p>However, these are the same steps for preparing any assembly for use with the browser. For notes on creating URLs for your data either locally or hosted, read more <a href="https://gmod.github.io/JBrowseR/articles/creating-urls.html">here</a>.</p>
 </div>
 <div id="creating-a-minimal-shiny-app" class="section level2">
 <h2>Creating a minimal shiny app</h2>
