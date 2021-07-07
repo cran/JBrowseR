@@ -1,6 +1,6 @@
 Package: JBrowseR
 Title: An R Interface to the JBrowse 2 Genome Browser
-Version: 0.8.0
+Version: 0.8.1
 Authors@R: 
     c(person(given = "Elliot",
              family = "Hershberg",
@@ -24,9 +24,9 @@ Suggests: testthat (>= 3.0.0), knitr, rmarkdown
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2021-05-21 18:35:29 UTC; elliothershberg
+Packaged: 2021-07-07 20:22:32 UTC; elliothershberg
 Author: Elliot Hershberg [aut, cre] (<https://orcid.org/0000-0003-2068-3366>),
   the JBrowse 2 Team [aut]
 Maintainer: Elliot Hershberg <eahershberg@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-05-21 19:00:02 UTC
+Date/Publication: 2021-07-07 20:30:06 UTC

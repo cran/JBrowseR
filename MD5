@@ -1,6 +1,6 @@
-7201b2a5bfa248ed0421bbf9db6c29cb *DESCRIPTION
+48a6404d739e2267597eccdcc0e8d291 *DESCRIPTION
 a1e777134008445ec35e6d00b4ccb234 *NAMESPACE
-7ecfcbe692453fe5d91e43d41ea0976b *NEWS.md
+6abc05f3455ce69879466121c4faa6d5 *NEWS.md
 f59acf53f5b532a4048a316b8881fcb5 *R/JBrowseR.R
 2f9a45507cd4c619fe8e73f816bfdbae *R/alignments.R
 06c944f07ccf68fa75e3866b89a6f3f1 *R/assembly.R
@@ -15,7 +15,7 @@ ac93e6a9ee9435015c1f19baabfe5491 *R/tracks.R
 6d8329331d1f91d116e29685085d3de0 *R/utils.R
 4f94d0765660bc4f4c9af49e1207712b *R/variant.R
 faafffb82edaa0c0611965f30a3d4248 *R/wiggle.R
-f5f37909c31e07d6db2af5a72b3020ee *README.md
+f9244a2476e126cccde8db828e6b292c *README.md
 74c9f81d5e266c771695082f065aad92 *build/vignette.rds
 ba0dddc721b715dc52c287b46fa71ace *inst/doc/JBrowseR.R
 5085e578655bd90d95887090e417ecb8 *inst/doc/JBrowseR.Rmd
@@ -29,7 +29,7 @@ aae8d6e4cf6f11a4b5835606b9a263a7 *inst/doc/custom-browser-tutorial.Rmd
 ee95d94d70f6dc567177b367b4948ce7 *inst/doc/json-tutorial.R
 c44ce9e36465593baaebd7db3694e1c4 *inst/doc/json-tutorial.Rmd
 67813e7964be065ac726fc13586c4f46 *inst/doc/json-tutorial.html
-92b289556e2fe9f628edcdb6c136f995 *inst/htmlwidgets/JBrowseR.js
+de7b069c172db86668c4d01514c981ca *inst/htmlwidgets/JBrowseR.js
 f4e016f307599c655a54114b75c77e19 *man/JBrowseR-shiny.Rd
 eb7fc7e94360e8282f1e9148523917d7 *man/JBrowseR.Rd
 9924e53954fb5b1739e9edff842ce5d6 *man/assembly.Rd
