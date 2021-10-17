@@ -1,6 +1,12 @@
-# JBrowser 0.8.1
+# JBrowseR 0.9.0
 
-This PR consists of updates to the JS side of the package:
+- Updated `@jbrowse/react-linear-genome-view` to latest release (1.4.4). Check out the [JB2 release notes](https://jbrowse.org/jb2/blog/2021/09/14/v1.4.4-release/) to learn about all of the features!
+- Fixed the code example for `track_wiggle()`.
+- Updated the URL for the hg38 to fix the CORS error from the old source.
+
+# JBrowseR 0.8.1
+
+This release consists of updates to the JS side of the package:
 
 - Upgrades `@jbrowse/react-linear-genome-view` to latest release (1.3.2). This includes:
   - new SVG export feature! 📸
