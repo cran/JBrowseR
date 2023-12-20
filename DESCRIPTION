@@ -1,15 +1,15 @@
 Package: JBrowseR
 Title: An R Interface to the JBrowse 2 Genome Browser
-Version: 0.10.0
+Version: 0.10.2
 Authors@R: 
     c(person(given = "Elliot",
              family = "Hershberg",
-             role = c("aut", "cre"),
+             role = c("aut"),
              email = "eahershberg@gmail.com",
              comment = c(ORCID = "0000-0003-2068-3366")),
       person(given = "Colin",
              family = "Diesh",
-             role = c("aut"),
+             role = c("aut", "cre"),
              email = "colin.diesh@gmail.com",
              comment = c(ORCID = "0000-0003-2629-7570")),
       person(given = "the JBrowse 2 Team",
@@ -29,10 +29,10 @@ Suggests: testthat (>= 3.0.0), knitr, rmarkdown
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2023-06-08 00:59:07 UTC; elliothershberg
-Author: Elliot Hershberg [aut, cre] (<https://orcid.org/0000-0003-2068-3366>),
-  Colin Diesh [aut] (<https://orcid.org/0000-0003-2629-7570>),
+Packaged: 2023-12-20 16:45:54 UTC; cdiesh
+Author: Elliot Hershberg [aut] (<https://orcid.org/0000-0003-2068-3366>),
+  Colin Diesh [aut, cre] (<https://orcid.org/0000-0003-2629-7570>),
   the JBrowse 2 Team [aut]
-Maintainer: Elliot Hershberg <eahershberg@gmail.com>
+Maintainer: Colin Diesh <colin.diesh@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-06-08 04:42:59 UTC
+Date/Publication: 2023-12-20 17:20:06 UTC
